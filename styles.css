@@ -39,28 +39,38 @@ body {
   padding: 25px;
   background-image: url(./icons/flair.png);
   background-repeat: no-repeat;
-  background-position: 278px 220px;
+  background-position: 278px 150px;
   height: 600px;
+  margin-top: 95px;
 }
 
 .title {
   font-family: 'Crete Round', serif;
   font-size: 56px;
+  font-weight: lighter;
   color: #ff6b00;
+  margin: 1px 1px 11px 1px;
 }
 
 .subtitle {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: #fff5e1;
+  margin: 1px 1px 11px 1px;
 }
 
 .paragraph {
   font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
   color: #fff;
+  margin: 1px 1px 21px 1px;
 }
 
 .contact-bar {
+  list-style: none;
   display: flex;
-  margin-top: -180px;
-}
+  padding: 0%;
+  margin: 0%;
+  }
