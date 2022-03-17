@@ -26,7 +26,7 @@ body {
 .toolbarlogo {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
   background-color: #3c3a39;
   height: 20px;
 }
@@ -57,7 +57,7 @@ body {
 
 .paragraph {
   font-family: 'Poppins', sans-serif;
-  color: #ffffff;
+  color: #fff;
 }
 
 .contact-bar {
