@@ -16,16 +16,19 @@ body {
   background: #3c3a39;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 25px;
   width: 375px;
+  height: 12px;
 }
 
 .toolbarlogo {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: whitesmoke;
+  color: #ffffff;
   background-color: #3c3a39;
+  height: 20px;
 }
 
 .welcomeinfo {
@@ -36,23 +39,25 @@ body {
   padding: 25px;
   background-image: url(./icons/flair.png);
   background-repeat: no-repeat;
-  background-position: 278px 130px;
-  height: 500px;
+  background-position: 278px 220px;
+  height: 600px;
 }
 
 .title {
   font-family: 'Crete Round', serif;
+  font-size: 56px;
   color: #ff6b00;
 }
 
 .subtitle {
   font-family: 'Roboto', sans-serif;
-  color: whitesmoke;
+  font-size: 24px;
+  color: #fff5e1;
 }
 
 .paragraph {
   font-family: 'Poppins', sans-serif;
-  color: whitesmoke;
+  color: #ffffff;
 }
 
 .contact-bar {
