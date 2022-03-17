@@ -19,12 +19,11 @@ body {
   align-items: center;
   margin: 0;
   padding: 25px;
-  width: 375px;
   height: 12px;
 }
 
 .toolbarlogo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #fff;
   background-color: #3c3a39;
@@ -32,20 +31,20 @@ body {
 }
 
 .welcomeinfo {
-  display: flex;
-  flex-direction: column;
-  align-content: stretch;
-  width: 375px;
-  padding: 25px;
+  padding-right: 50px;
   background-image: url(./icons/flair.png);
   background-repeat: no-repeat;
-  background-position: 278px 150px;
+  background-position: bottom right;
+  background-size: contain;
+  position: absolute;
+  right: -2%;
+  top: 20.3%;
   height: 600px;
-  margin-top: 95px;
+  padding-left: 20px;
 }
 
 .title {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 56px;
   font-weight: lighter;
   color: #ff6b00;
@@ -53,19 +52,20 @@ body {
 }
 
 .subtitle {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   color: #fff5e1;
   margin: 1px 1px 11px 1px;
 }
 
 .paragraph {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 24px;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
   margin: 1px 1px 21px 1px;
+  padding-right: 50px;
 }
 
 .contact-bar {
