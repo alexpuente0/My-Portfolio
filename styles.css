@@ -36,10 +36,9 @@ body {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain;
-  position: absolute;
   right: -2%;
   top: 20.3%;
-  height: 600px;
+  height: 590px;
   padding-left: 20px;
 }
 
@@ -48,14 +47,14 @@ body {
   font-size: 56px;
   font-weight: lighter;
   color: #ff6b00;
-  margin: 1px 1px 11px 1px;
+  margin: 120px 24px 11px 24px;
 }
 
 .subtitle {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   color: #fff5e1;
-  margin: 1px 1px 11px 1px;
+  margin: 1px 24px 11px 24px;
 }
 
 .paragraph {
@@ -64,7 +63,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-  margin: 1px 1px 21px 1px;
+  margin: 1px 24px 21px 24px;
   padding-right: 50px;
 }
 
@@ -72,5 +71,220 @@ body {
   list-style: none;
   display: flex;
   padding: 0%;
-  margin: 0%;
+  margin: 1px 151px 120px 20px;
+  height: 40px;
+}
+
+.mainpjimg {
+  width: 100%;
+}
+
+/* Projects */
+
+.workSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, auto);
+  background-color: #fff;
+  padding: 100px 5% 25px 5%;
+  row-gap: 24px;
+}
+
+.ptitle {
+  font-family: "Crete Round", serif;
+  text-align: center;
+}
+
+.t2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.t2::after {
+  content: url(./icons/Line.png);
+  display: flex;
+  justify-content: center;
+}
+
+.t1 {
+  text-align: left;
+}
+
+.pjdescrip {
+  font-family: "Inter", sans-serif;
+  margin: 24px 12px 24px 12px;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  padding: 1px;
+  align-content: center;
+}
+
+.tagtech {
+  border: 1px solid #8993a4;
+  height: 20px;
+  text-align: center;
+  column-gap: 12px;
+  padding: 10px;
+}
+
+.proj {
+  display: grid;
+  background-image: url(./icons/secondarypj.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: calc(100%);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+.btstyle {
+  background-color: #ff6b00;
+  font-size: 17px;
+  height: 48px;
+}
+
+.mainbt {
+  border: none;
+  width: 124px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.mainbt:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
+.mainbt:active {
+  background-color: #e05304;
+  color: #fff;
+}
+
+.pbox {
+  margin: 12px 16px 12px 16px;
+}
+
+.pjbutton {
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.pjbutton:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
+.pjbutton:active {
+  background-color: #e05304;
+  color: #fff;
+}
+
+.ptech {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 16px;
+  column-gap: 12px;
+}
+
+.tdisplay {
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+/* About Me */
+.aboutme {
+  background-image: url(./icons/theguy.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 652px;
+  padding: 5%;
+}
+
+.abtitle {
+  margin-bottom: 24px;
+}
+
+.secondline {
+  margin-top: 209px;
+}
+
+.get-resume {
+  margin-left: 24px;
+}
+
+/* Skills */
+
+.mainlist {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  align-content: center;
+  padding: 25px 5% 25px 5%;
+  row-gap: 24px;
+}
+
+.mainlist::before {
+  content: url(./icons/Line2.png);
+  display: flex;
+  justify-content: center;
+}
+
+.tlang h2 {
+  background-image: url(./icons/rombus.png);
+  padding-left: 2rem;
+  background-position: 40px 10px;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+.tframe h2 {
+  background-image: url(./icons/square.png);
+  padding-left: 2rem;
+  background-position: 25px 10px;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+.tskill h2 {
+  background-image: url(./icons/circle.png);
+  padding-left: 2rem;
+  background-position: 100px 10px;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.sublist {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  line-height: 44px;
+  text-align: center;
 }
