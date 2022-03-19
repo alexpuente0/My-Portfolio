@@ -241,7 +241,7 @@ body {
   content: url(./icons/Line2.png);
   display: flex;
   justify-content: center;
-}
+  }
 
 .tlang::before {
   content: url(./icons/rombus.png);
