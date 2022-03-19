@@ -241,24 +241,30 @@ body {
   content: url(./icons/Line2.png);
   display: flex;
   justify-content: center;
-  }
-
-.tlang::before {
-  content: url(./icons/rombus.png);
-  padding-right: 10px;
-  margin-top: 37.35px;
 }
 
-.tframe::before {
-  content: url(./icons/square.png);
-  padding-right: 10px;
-  margin-top: 37.35px;
+.tlang h2 {
+  background-image: url(./icons/rombus.png);
+  padding-left: 2rem;
+  background-position: 40px 10px;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
 }
 
-.tskill::before {
-  content: url(./icons/circle.png);
-  padding-right: 10px;
-  margin-top: 37.35px;
+.tframe h2 {
+  background-image: url(./icons/square.png);
+  padding-left: 2rem;
+  background-position: 25px 10px;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+.tskill h2 {
+  background-image: url(./icons/circle.png);
+  padding-left: 2rem;
+  background-position: 100px 10px;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
 }
 
 .titles {
@@ -284,5 +290,5 @@ body {
 }
 
 .sub {
-  padding:0px;
+  padding: 0px;
 }
