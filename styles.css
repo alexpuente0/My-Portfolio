@@ -241,25 +241,24 @@ body {
   content: url(./icons/Line2.png);
   display: flex;
   justify-content: center;
-  padding-top: ;
-}
+  }
 
 .tlang::before {
   content: url(./icons/rombus.png);
   padding-right: 10px;
-  margin-top: 35.1px;
+  margin-top: 37.35px;
 }
 
 .tframe::before {
   content: url(./icons/square.png);
   padding-right: 10px;
-  margin-top: 35.1px;
+  margin-top: 37.35px;
 }
 
 .tskill::before {
   content: url(./icons/circle.png);
   padding-right: 10px;
-  margin-top: 35.1px;
+  margin-top: 37.35px;
 }
 
 .titles {
