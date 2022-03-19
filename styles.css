@@ -98,12 +98,17 @@ body {
 .t2 {
   font-size: 40px;
   font-weight: 400;
+  text-align: center;
 }
 
-.divisory {
-  justify-items: center;
-  margin-bottom: 80px;
-  width: 100%;
+.t2::after {
+  content: url(./icons/Line.png);
+  display: flex;
+  justify-content: center;
+}
+
+.t1 {
+  text-align: left;
 }
 
 .pjdescrip {
@@ -217,6 +222,10 @@ body {
   margin-top: 209px;
 }
 
+.get-resume {
+  margin-left: 24px;
+}
+
 /* Skills */
 
 .mainlist {
@@ -224,8 +233,15 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
   align-content: center;
-  padding: 160px 5% 25px 5%;
+  padding: 25px 5% 25px 5%;
   row-gap: 24px;
+}
+
+.mainlist::before {
+  content: url(./icons/Line2.png);
+  display: flex;
+  justify-content: center;
+  padding-top: ;
 }
 
 .tlang::before {
