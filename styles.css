@@ -83,7 +83,7 @@ body {
 
 .workSection {
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(6, auto);
   background-color: #fff;
   padding: 100px 5% 25px 5%;
@@ -98,7 +98,6 @@ body {
 .t2 {
   font-size: 40px;
   font-weight: 400;
-  margin: none;
 }
 
 .divisory {
@@ -109,6 +108,7 @@ body {
 
 .pjdescrip {
   font-family: "Inter", sans-serif;
+  margin: 24px 12px 24px 12px;
 }
 
 .tech {
@@ -161,10 +161,6 @@ body {
 .mainbt:active {
   background-color: #e05304;
   color: #fff;
-}
-
-.pjdescrip {
-  margin: 24px 12px 24px 12px;
 }
 
 .pbox {
@@ -225,14 +221,10 @@ body {
 
 .mainlist {
   display: grid;
-  /*grid-template-columns: 100%;*/
-  grid-template-columns: 1;
-  /*grid-template-rows: repeat(3, 327px);*/
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
-  row-gap: 16px;
-  padding-top: 160px;
   align-content: center;
-  padding: 100px 5% 25px 5%;
+  padding: 160px 5% 25px 5%;
   row-gap: 24px;
 }
 
@@ -259,7 +251,6 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  size: 32px;
   line-height: 44px;
   text-align: center;
 }
@@ -269,7 +260,7 @@ body {
   flex-direction: column;
   color: #fff;
   font-family: "Inter", sans-serif;
-  size: 22px;
+  font-size: 22px;
   line-height: 44px;
   text-align: center;
 }
