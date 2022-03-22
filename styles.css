@@ -342,6 +342,8 @@ body {
   width: 327px;
   resize: vertical;
   overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .send-message {
