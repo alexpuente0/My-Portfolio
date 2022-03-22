@@ -288,3 +288,89 @@ body {
   line-height: 44px;
   text-align: center;
 }
+
+/* Contact */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.contact-text {
+  font-family: "Inter", sans-serif;
+  min-width: 327px;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 44px;
+  font-size: xx-large;
+  margin: 120px 24px 24px 24px;
+  color: #172b4d;
+}
+
+.contact-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.celement {
+  margin: 24px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #979493;
+  width: 327px;
+}
+
+.contact-name {
+  border: 0;
+  border-bottom: 2px solid #dbd8d7;
+  padding: 14px;
+}
+
+.contact-email {
+  border: 0;
+  border-bottom: 2px solid #dbd8d7;
+  padding: 14px;
+}
+
+.contact-message {
+  padding: 14px;
+  border: 0;
+  height: 114px;
+  width: 327px;
+  resize: vertical;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.send-message {
+  margin-bottom: 124px;
+}
+
+.foot-area {
+  border-top: 1px solid #dfe1e6;
+  width: 100%;
+  align-items: center;
+}
+
+.bottom-bar {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1px;
+}
+
+.footicon {
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.contact-form::after {
+  content: url(./icons/home-indicator.png);
+  display: flex;
+  justify-content: center;
+}
