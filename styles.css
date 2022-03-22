@@ -318,7 +318,7 @@ body {
 .celement {
   margin: 24px;
   font-family: "Inter", sans-serif;
-  size: 15px;
+  font-size: 15px;
   color: #979493;
   width: 327px;
 }
@@ -353,11 +353,12 @@ body {
   width: 100%;
   align-items: center;
 }
+
 .bottom-bar {
   display: flex;
   list-style: none;
   justify-content: space-around;
-  width: 1fr;
+  width: 100%;
   padding: 1px;
 }
 
