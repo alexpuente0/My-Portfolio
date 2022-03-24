@@ -415,9 +415,9 @@ body {
     font-size: 20px;
     line-height: 20px;
     background-color: #3c3a39;
-
     margin-left: 151px;
   }
+
   .desk-contact-info {
     width: 255px;
     height: 40px;
@@ -489,7 +489,7 @@ body {
   }
 
   .winfo {
-    display: Flex;
+    display: flex;
     flex-direction: column;
     order: 1;
     align-self: center;
@@ -576,7 +576,6 @@ body {
   .recentwork {
     display: flex;
     width: 100%;
-    justify-content: center;
     padding: 0 63px 0 63px;
     justify-content: space-between;
   }
@@ -680,7 +679,7 @@ body {
   }
 
   .hide-pj h2 {
-    font-family: "Crete Round";
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -704,7 +703,6 @@ body {
   }
 
   .mainbt {
-    border: none;
     width: 124px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -728,7 +726,6 @@ body {
   }
 
   .pjbutton {
-    border: none;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     color: #fff;
