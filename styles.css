@@ -479,8 +479,8 @@ body {
     padding-right: 50px;
     background-image: url(./icons/fullflair.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 600px;
+    background-position: right;
+    background-size: 500px;
     right: -2%;
     top: 20.3%;
     height: 870px;
@@ -493,6 +493,8 @@ body {
     flex-direction: column;
     order: 1;
     align-self: center;
+    width: 664px;
+    justify-content: center;
   }
 
   .winfo h1 {
@@ -504,6 +506,7 @@ body {
     font-size: 72px;
     line-height: 82px;
     color: #f55800;
+    margin-top: 5px;
   }
 
   .winfo h3 {
@@ -531,15 +534,14 @@ body {
     display: flex;
     order: 0;
     flex-direction: column;
-    padding: 0%;
     height: 40px;
     width: 40px;
     margin: 0;
     align-self: center;
     position: relative;
     top: -10%;
-    padding-right: 87px;
-    padding-left: 40px;
+    padding-left: 25px;
+    padding-right: 60px;
   }
 
   .mainpjimg {
@@ -629,13 +631,27 @@ body {
     text-align: center;
   }
 
-  .t2::after {
-    content: url(./icons/desktop-line.png);
-    float: right;
-  }
-
   .t1 {
     text-align: left;
+  }
+
+  .t2::after {
+    display: none;
+  }
+
+  .recent-works-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+  }
+
+  .recent-works-top h2 {
+    margin: 0;
+  }
+
+  .recent-works-top hr {
+    width: 60%;
+    border: 1px solid black;
   }
 
   .tech {
