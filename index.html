@@ -30,21 +30,39 @@
   <body>
     <header class="top-menu">
       <a class="toolbarlogo">Alejandro Puente</a>
+
+      <!-- desktop -->
+      <div class="desk-top">
+        <ul class="desk-contact-info small-hide large-show">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <img
+          class="desk-contact-image small-hide large-show"
+          src="./icons/letter.png"
+          alt="Send Mail"
+        />
+      </div>
+
+      <!-- mobile -->
       <img
-        class="toolbar menu"
+        class="toolbar-menu large-hide"
         src="./icons/Enabled.png"
         alt="collapsed menu icon"
       />
     </header>
 
     <section class="welcomeinfo">
-      <h1 class="title">Hey There. I’m Alex!</h1>
-      <h3 class="subtitle">I am a Software Developer</h3>
-      <p class="paragraph">
-        I can help you build a product, feature or website. Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don’t hestiate to contact me.
-      </p>
+      <div class="winfo">
+        <h1 class="title">Hey There. I’m Alex!</h1>
+        <h3 class="subtitle">I am a Software Developer</h3>
+        <p class="paragraph">
+          I can help you build a product, feature or website. Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+      </div>
       <ul class="contact-bar">
         <li>
           <a href="http://www.github.com">
@@ -103,98 +121,103 @@
             src="./icons/mainproject.png"
             alt="My Latest Project"
           />
-          <h2 class="ptitle t1">Multi-Post Stories</h2>
-          <p class="pjdescrip">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="tech">
-            <li class="tagtech">css</li>
-            <li class="tagtech">html</li>
-            <li class="tagtech">bootstrap</li>
-            <li class="tagtech">Ruby</li>
-          </ul>
-          <button class="btstyle mainbt" type="button">See Project</button>
+          <div class="main-pj-info">
+            <h2 class="ptitle t1">Multi-Post Stories</h2>
+            <p class="pjdescrip">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul class="tech">
+              <li class="tagtech">css</li>
+              <li class="tagtech">html</li>
+              <li class="tagtech">bootstrap</li>
+              <li class="tagtech">Ruby</li>
+            </ul>
+            <button class="btstyle mainbt" type="button">See Project</button>
+          </div>
         </div>
       </div>
-      <div class="project1 proj">
-        <h2 class="ptitle">Professional Art Printing Data</h2>
-        <p class="pbox">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="ptech">
-          <li class="tdisplay">html</li>
-          <li class="tdisplay">bootstrap</li>
-          <li class="tdisplay">Ruby</li>
-        </ul>
-        <button class="btstyle pjbutton" type="button">See Project</button>
-      </div>
-      <div class="project2 proj">
-        <h2 class="ptitle">Professional Art Printing Data</h2>
-        <p class="pbox">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="ptech">
-          <li class="tdisplay">html</li>
-          <li class="tdisplay">bootstrap</li>
-          <li class="tdisplay">Ruby</li>
-        </ul>
-        <button class="btstyle pjbutton" type="button">See Project</button>
-      </div>
-      <div class="project3 proj">
-        <h2 class="ptitle">Professional Art Printing Data</h2>
-        <p class="pbox">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="ptech">
-          <li class="tdisplay">html</li>
-          <li class="tdisplay">bootstrap</li>
-          <li class="tdisplay">Ruby</li>
-        </ul>
-        <button class="btstyle pjbutton" type="button">See Project</button>
-      </div>
-      <div class="project4 proj">
-        <h2 class="ptitle">Professional Art Printing Data</h2>
-        <p class="pbox">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="ptech">
-          <li class="tdisplay">html</li>
-          <li class="tdisplay">bootstrap</li>
-          <li class="tdisplay">Ruby</li>
-        </ul>
-        <button class="btstyle pjbutton" type="button">See Project</button>
-      </div>
-      <div class="project5 proj">
-        <h2 class="ptitle">Professional Art Printing Data</h2>
-        <p class="pbox">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="ptech">
-          <li class="tdisplay">html</li>
-          <li class="tdisplay">bootstrap</li>
-          <li class="tdisplay">Ruby</li>
-        </ul>
-        <button class="btstyle pjbutton" type="button">See Project</button>
-      </div>
-      <div class="project6 proj">
-        <h2 class="ptitle">Professional Art Printing Data</h2>
-        <p class="pbox">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard
-        </p>
-        <ul class="ptech">
-          <li class="tdisplay">html</li>
-          <li class="tdisplay">bootstrap</li>
-          <li class="tdisplay">Ruby</li>
-        </ul>
-        <button class="btstyle pjbutton" type="button">See Project</button>
+      <div class="projectx">
+        <div class="project1 proj">
+          <h2 class="ptitle">Professional Art Printing Data</h2>
+          <p class="pbox">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="ptech">
+            <li class="tdisplay">html</li>
+            <li class="tdisplay">bootstrap</li>
+            <li class="tdisplay">Ruby</li>
+          </ul>
+          <button class="btstyle pjbutton" type="button">See Project</button>
+        </div>
+        <div class="project2 proj">
+          <h2 class="ptitle">Professional Art Printing Data</h2>
+          <p class="pbox">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="ptech">
+            <li class="tdisplay">html</li>
+            <li class="tdisplay">bootstrap</li>
+            <li class="tdisplay">Ruby</li>
+          </ul>
+          <button class="btstyle pjbutton" type="button">See Project</button>
+        </div>
+        <div class="project3 proj">
+          <h2 class="ptitle">Professional Art Printing Data</h2>
+          <p class="pbox">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="ptech">
+            <li class="tdisplay">html</li>
+            <li class="tdisplay">bootstrap</li>
+            <li class="tdisplay">Ruby</li>
+          </ul>
+          <button class="btstyle pjbutton" type="button">See Project</button>
+        </div>
+        <div class="project4 proj">
+          <h2 class="ptitle">Professional Art Printing Data</h2>
+          <p class="pbox">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="ptech">
+            <li class="tdisplay">html</li>
+            <li class="tdisplay">bootstrap</li>
+            <li class="tdisplay">Ruby</li>
+          </ul>
+          <button class="btstyle pjbutton" type="button">See Project</button>
+        </div>
+        <div class="project5 proj">
+          <h2 class="ptitle">Professional Art Printing Data</h2>
+          <p class="pbox">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="ptech">
+            <li class="tdisplay">html</li>
+            <li class="tdisplay">bootstrap</li>
+            <li class="tdisplay">Ruby</li>
+          </ul>
+          <button class="btstyle pjbutton" type="button">See Project</button>
+        </div>
+        <div class="project6 proj">
+          <h2 class="ptitle">Professional Art Printing Data</h2>
+          <p class="pbox">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="ptech">
+            <li class="tdisplay">html</li>
+            <li class="tdisplay">bootstrap</li>
+            <li class="tdisplay">Ruby</li>
+          </ul>
+          <button class="btstyle pjbutton" type="button">See Project</button>
+        </div>
       </div>
     </section>
     <!--about me-->
@@ -284,7 +307,8 @@
           Get in touch
         </button>
       </form>
-
+    </section>
+    <section>
       <footer class="foot-area">
         <ul class="bottom-bar">
           <li>
