@@ -486,6 +486,8 @@ body {
     align-items: baseline;
   }
 
+
+
   .winfo {
     display: flex;
     flex-direction: column;
@@ -583,6 +585,11 @@ body {
   .recentwork img {
     content: url(./icons/desktop-multi.png);
     width: 50%;
+    transition: ease-in 3s;
+  }
+
+  .recentwork img:hover {
+    transform: scale(0,1);
   }
 
   .main-pj-info {
