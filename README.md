@@ -16,7 +16,7 @@ In this project we created a repository with Linters, and added an HTML and CSS 
 
 ## Deployment
 
-You can review the live site [here] (https://alexpuente0.github.io/My-Portfolio/)
+You can review the live site [here](https://alexpuente0.github.io/My-Portfolio/)
 ## Authors
 
 👤 **Alex Puente**
