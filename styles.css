@@ -695,6 +695,7 @@ body {
   .hide-pj {
     display: flex;
     flex-direction: column;
+    transition: all 1s ease-in-out;
   }
 
   .hide-pj h2 {
@@ -709,9 +710,7 @@ body {
   }
 
   .hide-pj:hover {
-    content: url(./icons/clean-pj.png);
-    height: 383.19px;
-    width: 362.91px;
+    opacity: 0%;
   }
 
   .btstyle {
