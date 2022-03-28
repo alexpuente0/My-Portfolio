@@ -14,6 +14,9 @@
 
 In this project we created a repository with Linters, and added an HTML and CSS file for the portfolio we will be using from now on to host all of the projects we will be making on Microverse.
 
+## Deployment
+
+You can review the live site [here] (https://alexpuente0.github.io/My-Portfolio/)
 ## Authors
 
 👤 **Alex Puente**
