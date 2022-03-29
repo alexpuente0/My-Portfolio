@@ -103,12 +103,14 @@ body {
   font-family: "Crete Round", serif;
   text-align: center;
   padding-left: 12px;
+  background-color: #575757;
 }
 
 .t2 {
   font-size: 40px;
   font-weight: 400;
   text-align: center;
+  background-color: #fff;
 }
 
 .t2::after {
@@ -119,11 +121,13 @@ body {
 
 .t1 {
   text-align: left;
+  background-color: #fff;
 }
 
 .pjdescrip {
   font-family: "Inter", sans-serif;
   margin: 24px 1px 24px 12px;
+  background-color: #fff;
 }
 
 .tech {
@@ -182,6 +186,7 @@ body {
 
 .pbox {
   margin: 12px 16px 12px 16px;
+  background-color: #545454;
 }
 
 .pjbutton {
@@ -337,13 +342,11 @@ body {
 
 .contact-name {
   border: 1px solid black;
-  border-bottom: 2px solid white;
   padding: 14px;
 }
 
 .contact-email {
   border: 1px solid black;
-  border-bottom: 2px solid white;
   padding: 14px;
 }
 
@@ -627,16 +630,19 @@ body {
   .ptitle {
     font-family: "Crete Round", serif;
     text-align: center;
+    background-color: #575757;
   }
 
   .t2 {
     font-size: 40px;
     font-weight: 400;
     text-align: center;
+    background-color: #fff;
   }
 
   .t1 {
     text-align: left;
+    background-color: #fff;
   }
 
   .t2::after {
@@ -715,7 +721,7 @@ body {
   }
 
   .btstyle {
-    background-color: #ff6b00;
+    background-color: #8f3c00;
     font-size: 17px;
     height: 48px;
     border: 1px solid #ff6b00;
@@ -742,6 +748,7 @@ body {
 
   .pbox {
     margin: 12px 16px 12px 16px;
+    background-color: #545454;
   }
 
   .pjbutton {
@@ -942,20 +949,18 @@ body {
   }
 
   .contact-name {
-    border: 0;
-    border-bottom: 2px solid white;
+    border: 1px solid black;
     padding: 14px;
   }
 
   .contact-email {
-    border: 0;
-    border-bottom: 2px solid white;
+    border: 1px solid black;
     padding: 14px;
   }
 
   .contact-message {
     padding: 14px;
-    border: 0;
+    border: 1px solid black;
     height: 114px;
     width: 327px;
     resize: vertical;
