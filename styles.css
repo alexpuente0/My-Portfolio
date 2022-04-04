@@ -117,13 +117,13 @@ line-height: 20px;
 .subtitle {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  color: #fff5e1;
+  color: white;
   margin: 1px 24px 11px 24px;
 }
 
 .paragraph {
   font-family: "Poppins", sans-serif;
-  line-height: 24px;
+  line-height: 25px;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -167,12 +167,14 @@ line-height: 20px;
   font-family: "Crete Round", serif;
   text-align: center;
   padding-left: 12px;
+  background-color: #575757;
 }
 
 .t2 {
   font-size: 40px;
   font-weight: 400;
   text-align: center;
+  background-color: #fff;
 }
 
 .t2::after {
@@ -183,11 +185,13 @@ line-height: 20px;
 
 .t1 {
   text-align: left;
+  background-color: #fff;
 }
 
 .pjdescrip {
   font-family: "Inter", sans-serif;
   margin: 24px 1px 24px 12px;
+  background-color: #fff;
 }
 
 .tech {
@@ -200,11 +204,12 @@ line-height: 20px;
 }
 
 .tagtech {
-  border: 1px solid #8993a4;
+  border: 1px solid black;
   height: 20px;
   text-align: center;
   column-gap: 12px;
   padding: 10px;
+  color: black;
 }
 
 .proj {
@@ -233,7 +238,7 @@ line-height: 20px;
 }
 
 .mainbt:hover {
-  background-color: #fff5e1;
+  background-color: white;
   color: #ff6b00;
   border: 1px solid #ff6b00;
 }
@@ -245,6 +250,7 @@ line-height: 20px;
 
 .pbox {
   margin: 12px 16px 12px 16px;
+  background-color: #545454;
 }
 
 .pjbutton {
@@ -255,7 +261,7 @@ line-height: 20px;
 }
 
 .pjbutton:hover {
-  background-color: #fff5e1;
+  background-color: white;
   color: #ff6b00;
   border: 1px solid #ff6b00;
 }
@@ -277,7 +283,7 @@ line-height: 20px;
   height: 20px;
   text-align: center;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.24);
+  background: black;
 }
 
 /* About Me */
@@ -394,25 +400,23 @@ line-height: 20px;
   margin: 24px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  color: #979493;
+  color: black;
   width: 327px;
 }
 
 .contact-name {
-  border: 0;
-  border-bottom: 2px solid #dbd8d7;
+  border: 1px solid black;
   padding: 14px;
 }
 
 .contact-email {
-  border: 0;
-  border-bottom: 2px solid #dbd8d7;
+  border: 1px solid black;
   padding: 14px;
 }
 
 .contact-message {
   padding: 14px;
-  border: 0;
+  border: 1px solid black;
   height: 114px;
   width: 327px;
   resize: vertical;
@@ -424,7 +428,7 @@ line-height: 20px;
 }
 
 .foot-area {
-  border-top: 1px solid #dfe1e6;
+  border-top: 1px solid white;
   background-color: #fff;
   width: 100%;
   align-items: center;
@@ -586,7 +590,7 @@ line-height: 20px;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #f4f5f7;
+    color: white;
     width: 566px;
     height: 123px;
   }
@@ -690,16 +694,19 @@ line-height: 20px;
   .ptitle {
     font-family: "Crete Round", serif;
     text-align: center;
+    background-color: #575757;
   }
 
   .t2 {
     font-size: 40px;
     font-weight: 400;
     text-align: center;
+    background-color: #fff;
   }
 
   .t1 {
     text-align: left;
+    background-color: #fff;
   }
 
   .t2::after {
@@ -736,7 +743,7 @@ line-height: 20px;
   }
 
   .tagtech {
-    border: 1px solid #8993a4;
+    border: 1px solid black;
     height: 20px;
     text-align: center;
     column-gap: 12px;
@@ -778,7 +785,7 @@ line-height: 20px;
   }
 
   .btstyle {
-    background-color: #ff6b00;
+    background-color: #8f3c00;
     font-size: 17px;
     height: 48px;
     border: 1px solid #ff6b00;
@@ -793,7 +800,7 @@ line-height: 20px;
   }
 
   .mainbt:hover {
-    background-color: #fff5e1;
+    background-color: #fff;
     color: #ff6b00;
     border: 1px solid #ff6b00;
   }
@@ -805,6 +812,7 @@ line-height: 20px;
 
   .pbox {
     margin: 12px 16px 12px 16px;
+    background-color: #545454;
   }
 
   .pjbutton {
@@ -815,7 +823,7 @@ line-height: 20px;
   }
 
   .pjbutton:hover {
-    background-color: #fff5e1;
+    background-color: white;
     color: #ff6b00;
     border: 1px solid #ff6b00;
   }
@@ -837,7 +845,7 @@ line-height: 20px;
     height: 20px;
     text-align: center;
     padding: 10px;
-    background: rgba(255, 255, 255, 0.24);
+    background: black;
   }
 
   /* About Me */
@@ -871,7 +879,7 @@ line-height: 20px;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #f4f5f7;
+    color: white;
     width: 566px;
     height: 148px;
   }
@@ -986,7 +994,7 @@ line-height: 20px;
     line-height: 52px;
     font-size: 40px;
     margin: 24px;
-    color: #262626;
+    color: black;
   }
 
   .contact-elements {
@@ -1000,25 +1008,23 @@ line-height: 20px;
     margin: 24px;
     font-family: "Inter", sans-serif;
     font-size: 15px;
-    color: #979493;
+    color: black;
     width: 327px;
   }
 
   .contact-name {
-    border: 0;
-    border-bottom: 2px solid #dbd8d7;
+    border: 1px solid black;
     padding: 14px;
   }
 
   .contact-email {
-    border: 0;
-    border-bottom: 2px solid #dbd8d7;
+    border: 1px solid black;
     padding: 14px;
   }
 
   .contact-message {
     padding: 14px;
-    border: 0;
+    border: 1px solid black;
     height: 114px;
     width: 327px;
     resize: vertical;
@@ -1032,7 +1038,7 @@ line-height: 20px;
   }
 
   .foot-area {
-    border-top: 1px solid #dfe1e6;
+    border-top: 1px solid white;
     background-color: #fff;
     width: 100%;
     align-items: center;
