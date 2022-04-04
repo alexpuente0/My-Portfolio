@@ -399,10 +399,17 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(85, 53, 47, 0.9);
+  background-color: #3c3a39;
   overflow-x: hidden;
   transition: 0.5s;
   width: 100%;
+  color: #FFF5E1;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 40px;
 }
 /* #myLinks #menu {
   float: right;
@@ -417,6 +424,19 @@ body {
   text-decoration: none;
   font-size: 32px;
   display: block;
+}
+
+.closemenu {
+      display: flex;
+    padding-left: 295px;
+    padding-top: 10px;
+}
+
+.hiddenmenuline {
+width: 300px;
+margin:15px 0;
+border: 1px solid #6F6C6B;
+
 }
 
 @media only screen and (min-width: 768px) {
