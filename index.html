@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
+    <script src="index.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap"
       rel="stylesheet"
@@ -48,21 +49,43 @@
       </div>
 
       <!-- mobile -->
+      <a
+      id="menu"
+      href="javascript:void(0);"
+      class="icon"
+      onclick="menu_btn()"
+    >
       <img
         class="toolbar-menu large-hide"
         src="./icons/Enabled.png"
         alt="collapsed menu icon"
-      />
+      /> </a>
+      <div id="myLinks">
+        <a
+          id="menu"
+          href="javascript:void(0);"
+          class="icon"
+          onclick="menu_btn()"
+        >
+          <img src="./icons/Icon.png" alt="close botton" />
+        </a>
+      
+        <a href="#portfolio" onclick="menu_btn()" class="por focusable"
+          >Portfolio</a
+        >
+        <a href="#about" onclick="menu_btn()" class="focusable">About</a>
+        <a href="#contact" onclick="menu_btn()" class="focusable">Contact</a>
+      </div>
     </header>
 
     <section class="welcomeinfo">
       <div class="winfo">
-        <h1 class="title">Hey There. I’m Alex!</h1>
+        <h1 class="title">Hey There. I'm Alex!</h1>
         <h3 class="subtitle">I am a Software Developer</h3>
         <p class="paragraph">
           I can help you build a product, feature or website. Look through some
           of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
+          you need coded, don't hestiate to contact me.
         </p>
       </div>
       <ul class="contact-bar">
