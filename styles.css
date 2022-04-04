@@ -23,21 +23,8 @@ a {
 .navbar {
   min-height: 72px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 120px 0 120px;
-}
-
-.nav-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 20px;
 }
 
 .nav-logo {
@@ -50,8 +37,20 @@ line-height: 20px;
 }
 
 .burger {
-  display:none;
+  display: block;
   cursor: pointer;
+}
+
+.burger.active .bar:nth-child(1){
+ transform: translateY(8px) rotate(45deg)
+}
+
+.burger.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.burger.active .bar:nth-child(3){
+ transform: translateY(-8px) rotate(-45deg)
 }
 
 .bar {
@@ -63,8 +62,29 @@ line-height: 20px;
   background-color: #fff;
 }
 
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #3c3a39;
+  width: 100%;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.nav-menu.active {
+  left:0;
+}
+
+
 .nav-link {
-  transition: 0.7s ease
+  transition: 0.7s ease;
 }
 
 .nav-link:hover {
@@ -464,6 +484,26 @@ line-height: 20px;
 @media only screen and (min-width: 768px) {
   .large-hide {
     display: none;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .burger {
+    display: none;
+    cursor: pointer;
   }
 
   .desk-top {
