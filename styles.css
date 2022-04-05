@@ -392,6 +392,7 @@ body {
 .small-hide {
   display: none;
 }
+
 #myLinks {
   display: none;
   z-index: 1;
@@ -411,15 +412,13 @@ body {
   line-height: 44px;
   padding-left: 40px;
 }
-/* #myLinks #menu {
-  float: right;
-  margin-top: -18px;
-} */
+
 .por {
   margin-top: 40px;
 }
+
 #myLinks a {
-  color: #ffffff;
+  color: #fff;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 32px;
