@@ -403,7 +403,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   width: 100%;
-  color: #FFF5E1;
+  color: #fff5e1;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -427,26 +427,26 @@ body {
 }
 
 .closemenu {
-      display: flex;
-    padding-left: 295px;
-    padding-top: 10px;
+  display: flex;
+  padding-left: 295px;
+  padding-top: 10px;
 }
 
 .hiddenmenuline {
-width: 300px;
-margin:15px 0;
-border: 1px solid #6F6C6B;
-
+  width: 300px;
+  margin: 15px 0;
+  border: 1px solid #6f6c6b;
 }
 
 @media only screen and (min-width: 768px) {
-  #myLinks{
+  #myLinks {
     display: none;
   }
+
   .large-hide {
     display: none;
   }
-  
+
   .nav-menu {
     position: fixed;
     left: 0%;
