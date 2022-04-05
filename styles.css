@@ -7,93 +7,6 @@ body {
   margin: 0;
 }
 
-<<<<<<< Updated upstream
-header {
-  background-color: #3c3a39;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.navbar {
-  min-height: 72px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.nav-logo {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  color: #fff;
-  background-color: #3c3a39;
-}
-
-.burger {
-  display: block;
-  cursor: pointer;
-}
-
-.burger.active .bar:nth-child(1){
- transform: translateY(8px) rotate(45deg)
-}
-
-.burger.active .bar:nth-child(2){
-  opacity: 0;
-}
-
-.burger.active .bar:nth-child(3){
- transform: translateY(-8px) rotate(-45deg)
-}
-
-.bar {
-  display: block;
-  width: 18px;
-  height: 3px;
-  margin: 5px auto;
-  transition: 0.2s ease-in-out;
-  background-color: #fff;
-}
-
-.nav-menu {
-  position: fixed;
-  left: -100%;
-  top: 70px;
-  gap: 0;
-  flex-direction: column;
-  background-color: #3c3a39;
-  width: 100%;
-  text-align: left;
-  transition: 0.3s;
-}
-
-.nav-item {
-  margin: 16px 0;
-}
-
-.nav-menu.active {
-  left:0;
-}
-
-
-.nav-link {
-  transition: 0.7s ease;
-}
-
-.nav-link:hover {
-  color: #f55800;
-}
-
-=======
->>>>>>> Stashed changes
 .menu {
   width: 18px;
   height: 20px;
@@ -480,11 +393,59 @@ a {
   display: none;
 }
 
+#myLinks {
+  display: none;
+  z-index: 1;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #3c3a39;
+  overflow-x: hidden;
+  transition: 0.5s;
+  width: 100%;
+  color: #fff5e1;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 40px;
+}
+
+.por {
+  margin-top: 40px;
+}
+
+#myLinks a {
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 32px;
+  display: block;
+}
+
+.closemenu {
+  display: flex;
+  padding-left: 295px;
+  padding-top: 10px;
+}
+
+.hiddenmenuline {
+  width: 300px;
+  margin: 15px 0;
+  border: 1px solid #6f6c6b;
+}
+
 @media only screen and (min-width: 768px) {
+  #myLinks {
+    display: none;
+  }
+
   .large-hide {
     display: none;
   }
-  
+
   .nav-menu {
     position: fixed;
     left: 0%;
