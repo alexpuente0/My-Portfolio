@@ -537,6 +537,14 @@ body {
   margin: 15px 0;
   border: 1px solid #6f6c6b;
 }
+.error-message{
+  display: none;
+  border: solid 1px red;
+  padding: 5px;
+  position: relative;
+  top: -24px;
+  width: 340px;
+}
 
 @media only screen and (min-width: 768px) {
   #myLinks {
@@ -1285,3 +1293,5 @@ body {
     justify-content: center;
   }
 }
+
+

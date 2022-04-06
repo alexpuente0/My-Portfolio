@@ -331,6 +331,7 @@
       <form
         class="contact-elements"
         action="https://formspree.io/f/mlezlyew"
+        onsubmit="return submit()"
         method="POST"
       >
         <input
@@ -346,9 +347,11 @@
           class="contact-email celement"
           name="email"
           type="email"
+          id="user-email"
           required
           placeholder="Email adress"
         />
+        <div class="error-message">Email must be in lower case</div>
 
         <textarea
           class="contact-message celement"

@@ -126,3 +126,30 @@ function togglePopup() {
        </a>
    `;
 }
+
+const email = document.getElementById("user-email");
+
+// function submit(){
+// if (email.value !== email.value.toLowerCase()){
+//   document.getElementsByClassName("validate").style.display ="flex";
+//   return false;
+// }
+// }
+
+const form = document.querySelector("form");
+const error = document.querySelector(".error-message");
+const mail = document.getElementById("email");
+
+form.addEventListener("submit", (e) => {
+  if (mail.value !== mail.value.toLowerCase()) {
+    e.preventDefault();
+    error.style.display = "block";
+    error.textContent = "Please use lowercase characters for your email";
+    error.style.color = "red";
+    error.style.fontFamily = "Roboto, sans-serif";
+  }
+  else{
+    
+  }
+});
+
