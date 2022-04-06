@@ -259,7 +259,7 @@ body {
 }
 
 .content h3 {
-    position: static;
+  position: static;
   width: 265px;
   height: 82px;
   left: 0;
@@ -755,6 +755,11 @@ body {
     transition: all 1s ease-in-out;
   }
 
+  .insidebt img {
+    vertical-align: middle;
+    margin: 5px, 0;
+  }
+
   .recentwork img:hover {
     transform: scale(1.1);
   }
@@ -1061,11 +1066,6 @@ body {
 
   .pop-buttons button {
     padding: 0 15px;
-  }
-
-  .insidebt img {
-    vertical-align: middle;
-    margin: 5px, 0;
   }
 
   /* About Me */
