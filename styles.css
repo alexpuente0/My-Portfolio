@@ -111,12 +111,6 @@ body {
   text-align: center;
 }
 
-.t2::after {
-  content: url(./icons/Line.png);
-  display: flex;
-  justify-content: center;
-}
-
 .t1 {
   text-align: left;
 }
@@ -216,7 +210,114 @@ body {
   background: rgba(255, 255, 255, 0.24);
 }
 
+/* popup button */
+
+.popup .overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.popup .content {
+  position: fixed;
+  top: calc(50% - 25px);
+  left: calc(75% - 100px);
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+  width: 343px;
+  height: 718px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.popup .close-btn {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  width: 33px;
+  height: 33px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+
+.popup.active .overlay {
+  display: block;
+}
+
+.popup.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.content h3 {
+  position: static;
+  width: 265px;
+  height: 82px;
+  left: 0;
+  top: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 2px;
+}
+
+.content ul {
+  display: flex;
+  align-items: left;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0;
+}
+
+.content li {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+
+.pop-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pop-buttons button {
+  padding: 0 15px;
+}
+
+.insidebt img {
+  vertical-align: middle;
+  margin: 5px, 0;
+}
+
 /* About Me */
+
 .aboutme {
   background-image: url(./icons/theguy.png);
   background-repeat: no-repeat;
@@ -654,6 +755,11 @@ body {
     transition: all 1s ease-in-out;
   }
 
+  .insidebt img {
+    vertical-align: middle;
+    margin: 5px, 0;
+  }
+
   .recentwork img:hover {
     transform: scale(1.1);
   }
@@ -842,6 +948,124 @@ body {
     text-align: center;
     padding: 10px;
     background: rgba(255, 255, 255, 0.24);
+  }
+
+  /* popup button */
+
+  .popup .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+  }
+
+  .popup .content {
+    position: fixed;
+    top: calc(50% - 25px);
+    left: calc(54% - 50px);
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 1158px;
+    height: 631px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .popup .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 33px;
+    height: 33px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .popup.active .overlay {
+    display: block;
+  }
+
+  .popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .content h3 {
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    position: static;
+    width: 259px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    color: #172b4d;
+    margin: 2px;
+  }
+
+  .content ul {
+    display: flex;
+    align-items: left;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 0;
+  }
+
+  .content li {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .popcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 448px;
+  }
+
+  .content p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    width: 424;
+    height: 336;
+    margin-left: 25px;
+  }
+
+  .popimage {
+    float: left;
+    width: 659px;
+    height: 448px;
+  }
+
+  .pop-buttons {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 25px;
+  }
+
+  .pop-buttons button {
+    padding: 0 15px;
   }
 
   /* About Me */
