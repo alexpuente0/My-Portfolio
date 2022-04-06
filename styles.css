@@ -111,12 +111,6 @@ body {
   text-align: center;
 }
 
-.t2::after {
-  content: url(./icons/Line.png);
-  display: flex;
-  justify-content: center;
-}
-
 .t1 {
   text-align: left;
 }
@@ -215,6 +209,9 @@ body {
   padding: 10px;
   background: rgba(255, 255, 255, 0.24);
 }
+
+/* popup button */
+
 
 /* About Me */
 .aboutme {
@@ -843,6 +840,9 @@ body {
     padding: 10px;
     background: rgba(255, 255, 255, 0.24);
   }
+
+  /* popup button */
+
 
   /* About Me */
   .aboutme {
