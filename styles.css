@@ -259,11 +259,11 @@ body {
 }
 
 .content h3 {
-  position: static;
-  width: 259px;
+    position: static;
+  width: 265px;
   height: 82px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -277,7 +277,7 @@ body {
   display: flex;
   align-items: left;
   list-style: none;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -299,6 +299,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   text-align: left;
+  margin: 10px 0 0 0;
 }
 
 .pop-buttons {
@@ -310,7 +311,7 @@ body {
   padding: 0 15px;
 }
 
-button img {
+.insidebt img {
   vertical-align: middle;
   margin: 5px, 0;
 }
@@ -1002,8 +1003,8 @@ button img {
     position: static;
     width: 259px;
     height: 40px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     color: #172b4d;
     margin: 2px;
   }
@@ -1012,7 +1013,7 @@ button img {
     display: flex;
     align-items: left;
     list-style: none;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -1054,14 +1055,15 @@ button img {
 
   .pop-buttons {
     display: flex;
-    justify-content: space-around;
+    align-self: flex-start;
+    padding-left: 25px;
   }
 
   .pop-buttons button {
     padding: 0 15px;
   }
 
-  button img {
+  .insidebt img {
     vertical-align: middle;
     margin: 5px, 0;
   }

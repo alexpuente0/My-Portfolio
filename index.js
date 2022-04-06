@@ -119,10 +119,10 @@ function togglePopup() {
   const launch = document.querySelector(".gotoproject");
   launch.innerHTML = `
     <a href=${proyecto1.linkToLive}>
-       <button class="btstyle pjbutton" type="button"><span>See Live <img src="./icons/export.png" alt="launch project"></span></button>
+       <button class="btstyle pjbutton insidebt" type="button"><span>See Live <img src="./icons/export.png" alt="launch project"></span></button>
        </a>
      <a href=${proyecto1.linkToSource}>
-    <button class="btstyle pjbutton" type="button"><span>See Source <img src="./icons/github-w.png" alt="go to repo"></span></button>
+    <button class="btstyle pjbutton insidebt" type="button"><span>See Source <img src="./icons/github-w.png" alt="go to repo"></span></button>
        </a>
    `;
 }
