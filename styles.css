@@ -537,13 +537,15 @@ body {
   margin: 15px 0;
   border: 1px solid #6f6c6b;
 }
-.error-message{
+
+.error-message {
   display: none;
-  border: solid 1px red;
+  border: solid 1px #e05304;
   padding: 5px;
   position: relative;
   top: -24px;
   width: 340px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1293,5 +1295,3 @@ body {
     justify-content: center;
   }
 }
-
-
