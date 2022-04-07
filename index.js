@@ -1,3 +1,5 @@
+// Hamburger Button //
+
 function menu_btn() {
   let a = document.getElementById("myLinks");
   if (a.style.display === "none") {
@@ -6,6 +8,8 @@ function menu_btn() {
     a.style.display = "none";
   }
 }
+
+// Project Popup //
 
 const proyecto1 = {
   name: "Multi-Post Stories",
@@ -127,29 +131,24 @@ function togglePopup() {
    `;
 }
 
-const email = document.getElementById("user-email");
+// email validation //
 
-// function submit(){
-// if (email.value !== email.value.toLowerCase()){
-//   document.getElementsByClassName("validate").style.display ="flex";
-//   return false;
-// }
-// }
-
-const form = document.querySelector("form");
+const contact = document.getElementById("sendmessage");
 const error = document.querySelector(".error-message");
-const mail = document.getElementById("email");
+const mail = document.getElementById("user-email");
 
-form.addEventListener("submit", (e) => {
+contact.addEventListener("submit", (event) => {
+  event.preventDefault();
   if (mail.value !== mail.value.toLowerCase()) {
-    e.preventDefault();
     error.style.display = "block";
     error.textContent = "Please use lowercase characters for your email";
-    error.style.color = "red";
+    error.style.color = "#e05304";
     error.style.fontFamily = "Roboto, sans-serif";
   } else {
+    contact.submit();
   }
 });
+
 const theName = document.querySelector(".contact-name");
 const yourMessage = document.querySelector(".contact-message");
 
@@ -166,3 +165,12 @@ contact.addEventListener("input", () => {
 
   localStorage.setItem("formData", JSON.stringify(dataObject));
 });
+
+// retrieving data from local storage
+
+const fetchdata = JSON.parse(localStorage.getItem("formData"));
+if (fetchdata) {
+  theName.value = fetchdata.gotYourName;
+  mail.value = fetchdata.gotYourMail;
+  yourMessage.value = fetchdata.gotYourMessage;
+  }
