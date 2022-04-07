@@ -147,9 +147,22 @@ form.addEventListener("submit", (e) => {
     error.textContent = "Please use lowercase characters for your email";
     error.style.color = "red";
     error.style.fontFamily = "Roboto, sans-serif";
-  }
-  else{
-    
+  } else {
   }
 });
+const theName = document.querySelector(".contact-name");
+const yourMessage = document.querySelector(".contact-message");
 
+// listen for inputs to create form objects
+
+contact.addEventListener("input", () => {
+  const dataObject = {
+    gotYourName: theName.value,
+    gotYourMail: mail.value,
+    gotYourMessage: yourMessage.value,
+  };
+
+  // saving to local storage
+
+  localStorage.setItem("formData", JSON.stringify(dataObject));
+});
