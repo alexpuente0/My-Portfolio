@@ -142,7 +142,7 @@ contact.addEventListener("submit", (event) => {
   if (mail.value !== mail.value.toLowerCase()) {
     error.style.display = "block";
     error.textContent = "Please use lowercase characters for your email";
-    error.style.color = "red";
+    error.style.color = "#e05304";
     error.style.fontFamily = "Roboto, sans-serif";
   } else {
     contact.submit();
