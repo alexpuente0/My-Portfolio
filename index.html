@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alex's Portafolio</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
@@ -15,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
-    <script src="index.js"></script>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap"
       rel="stylesheet"
@@ -49,7 +48,12 @@
       </div>
 
       <!-- mobile -->
-      <a id="amenu" href="javascript:void(0);" class="icon" onclick="menu_btn()">
+      <a
+        id="amenu"
+        href="javascript:void(0);"
+        class="icon"
+        onclick="menu_btn()"
+      >
         <img
           class="toolbar-menu large-hide"
           src="./icons/Enabled.png"
@@ -162,7 +166,13 @@
               <li class="tagtech">bootstrap</li>
               <li class="tagtech">Ruby</li>
             </ul>
-            <button class="btstyle mainbt" onclick="togglePopup()" type="button">See Project</button>
+            <button
+              class="btstyle mainbt"
+              onclick="togglePopup()"
+              type="button"
+            >
+              See Project
+            </button>
           </div>
         </div>
       </div>
@@ -180,7 +190,13 @@
               <li class="tdisplay">Ruby</li>
             </ul>
           </div>
-          <button class="btstyle pjbutton" onclick="togglePopup()" type="button">See Project</button>
+          <button
+            class="btstyle pjbutton"
+            onclick="togglePopup()"
+            type="button"
+          >
+            See Project
+          </button>
         </div>
         <div class="project2 proj">
           <div class="hide-pj">
@@ -195,7 +211,13 @@
               <li class="tdisplay">Ruby</li>
             </ul>
           </div>
-          <button class="btstyle pjbutton" onclick="togglePopup()" type="button">See Project</button>
+          <button
+            class="btstyle pjbutton"
+            onclick="togglePopup()"
+            type="button"
+          >
+            See Project
+          </button>
         </div>
         <div class="project3 proj">
           <div class="hide-pj">
@@ -210,7 +232,13 @@
               <li class="tdisplay">Ruby</li>
             </ul>
           </div>
-          <button class="btstyle pjbutton" onclick="togglePopup()" type="button">See Project</button>
+          <button
+            class="btstyle pjbutton"
+            onclick="togglePopup()"
+            type="button"
+          >
+            See Project
+          </button>
         </div>
         <div class="project4 proj">
           <div class="hide-pj">
@@ -225,7 +253,13 @@
               <li class="tdisplay">Ruby</li>
             </ul>
           </div>
-          <button class="btstyle pjbutton" onclick="togglePopup()" type="button">See Project</button>
+          <button
+            class="btstyle pjbutton"
+            onclick="togglePopup()"
+            type="button"
+          >
+            See Project
+          </button>
         </div>
         <div class="project5 proj">
           <div class="hide-pj">
@@ -240,7 +274,13 @@
               <li class="tdisplay">Ruby</li>
             </ul>
           </div>
-          <button class="btstyle pjbutton" onclick="togglePopup()" type="button">See Project</button>
+          <button
+            class="btstyle pjbutton"
+            onclick="togglePopup()"
+            type="button"
+          >
+            See Project
+          </button>
         </div>
         <div class="project6 proj">
           <div class="hide-pj">
@@ -255,25 +295,31 @@
               <li class="tdisplay">Ruby</li>
             </ul>
           </div>
-          <button class="btstyle pjbutton" onclick="togglePopup()" type="button">See Project</button>
+          <button
+            class="btstyle pjbutton"
+            onclick="togglePopup()"
+            type="button"
+          >
+            See Project
+          </button>
         </div>
       </div>
-<!-- PopoUp -->
-<div class="popup" id="popup-1">
-  <div class="overlay"></div>
-    <div class="content">
-      <div class="close-btn" onclick="togglePopup()">&times;</div>
-      <h3 class="projectname"> Dummy Text </h3>
-        <div class="ulist"></div>
-        <div class="imagesub"></div>
-             <div class="popcont">
-     <div class="projectext"></div>
-        <div class="pop-buttons">
-        <div class="gotoproject"></div>  
+      <!-- PopoUp -->
+      <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup()">&times;</div>
+          <h3 class="projectname">Dummy Text</h3>
+          <div class="ulist"></div>
+          <div class="imagesub"></div>
+          <div class="popcont">
+            <div class="projectext"></div>
+            <div class="pop-buttons">
+              <div class="gotoproject"></div>
+            </div>
+          </div>
         </div>
-           </div>
-        </div>
-    </div>
+      </div>
     </section>
     <!--about me-->
     <section class="aboutme" id="about">
@@ -330,6 +376,7 @@
 
       <form
         class="contact-elements"
+        id="sendmessage"
         action="https://formspree.io/f/mlezlyew"
         method="POST"
       >
@@ -346,9 +393,12 @@
           class="contact-email celement"
           name="email"
           type="email"
+          id="user-email"
           required
           placeholder="Email adress"
         />
+
+        <div class="error-message"></div>
 
         <textarea
           class="contact-message celement"
@@ -414,5 +464,6 @@
         </ul>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

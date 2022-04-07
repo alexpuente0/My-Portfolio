@@ -1,3 +1,5 @@
+// Hamburger Button //
+
 function menu_btn() {
   let a = document.getElementById("myLinks");
   if (a.style.display === "none") {
@@ -6,6 +8,8 @@ function menu_btn() {
     a.style.display = "none";
   }
 }
+
+// Project Popup //
 
 const proyecto1 = {
   name: "Multi-Post Stories",
@@ -126,3 +130,21 @@ function togglePopup() {
        </a>
    `;
 }
+
+// email validation //
+
+const contact = document.getElementById("sendmessage");
+const error = document.querySelector(".error-message");
+const mail = document.getElementById("user-email");
+
+contact.addEventListener("submit", (event) => {
+  event.preventDefault();
+  if (mail.value !== mail.value.toLowerCase()) {
+    error.style.display = "block";
+    error.textContent = "Please use lowercase characters for your email";
+    error.style.color = "red";
+    error.style.fontFamily = "Roboto, sans-serif";
+  } else {
+    contact.submit();
+  }
+});
